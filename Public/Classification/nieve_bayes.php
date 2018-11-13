@@ -17,5 +17,5 @@ $classifier->train($samples, $labels);
 $classifier->predict([3, 1, 1]);
 // return 'a'
 
-$classifier->predict([[3, 1, 1], [1, 4, 1]);
+$classifier->predict([[3, 1, 1], [1, 4, 1]]);
 // return ['a', 'b']
